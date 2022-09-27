@@ -19,7 +19,9 @@ $result = [];
   $name=readline('Добрый день! Как вас зовут?');
   $birthDay = readline("Когда у вас день рождения?Введите дату в формате '2022-09-26'");
   
-  $currentData=date("Y-m-d");
+  $currentData=date("m-d");
+
+
 
   if($currentData===$birthDay){
 
@@ -96,7 +98,7 @@ $result = [];
 
          foreach($teamMembers as $studentName=>$value){
                 if($value<3){
-                   echo "Студент $studentName отчислен из потока\n";
+                   echo "Студент $studentName из группы $groupName отчислен из потока\n";
                 }
          }         
          
