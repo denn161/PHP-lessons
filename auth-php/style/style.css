@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+     min-height: 50px;
+     padding: 15px;
+     background-color: #ccc;
+     padding: 15px;
+     display: flex;
+     justify-content: flex-end;
+
+}
+
+.header__btn{
+     cursor: pointer;
+     padding: 10px 50px;
+     border: 1px solid red;
+     border-radius: 15px;
+     background-color: transparent;
+     display: block;
+
+}
+
+.hidden{
+    display: none;
+}
+
+.block{
+     display: block;
+}
+
